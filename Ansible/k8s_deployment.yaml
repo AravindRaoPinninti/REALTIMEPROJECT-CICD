@@ -1,4 +1,4 @@
----
+
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: mc-app
-        image: aravind753/chintuv1:6
+        image: aravind753/chintuv1:
         ports:
         - containerPort: 8080
 ---
