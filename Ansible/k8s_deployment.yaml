@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: mc-app
-        image: aravind753/chintuv2:7
+        image: aravind753/chintuv2:8
         ports:
         - containerPort: 8080
 ---
